@@ -103,7 +103,7 @@ span{
 .box{
     width: 30%;
     
-   /* border: 2px solid gold;*/
+ /*   border: 2px solid gold;*/
     display:inline-block;
     margin-left: 2%;
     background-color: white;
@@ -122,18 +122,21 @@ box-shadow: 4px 4px 4px gray;
     width: 60%;
     margin:90px auto;
   /*  border: 2px solid red;  */
+background-image: url("shapes/g.png");
+background-size: 100% 100%;
+/*background-position:center ;*/
+background-repeat: no-repeat;
+height: 214px;
     
 
      
     }
-.box-1 img{
-width: 100%;
-}
+
 .heading{
-   display: inline-block;
-   position: absolute;
-   left: 380px;
-   top: 2125px;
+ 
+   float: left;
+  
+   margin: 94px;
   
   
    font-size: 50px;
@@ -142,23 +145,25 @@ width: 100%;
    
 }
 .btn{
-display: inline-block;
-   position:absolute ;
-   right: 380px;
-   top: 2158px;
+
+ float: right;
+margin: 79px;
    background-color:rgb(245, 69, 4);
     color:white;
     border-radius: 10px;
     padding: 20px 40px;
+
 }
 .last-item{
    height: 300px;
    margin-top:30px;
  /*  border: 2px solid red;*/
 }
-.last-item h3{
-   text-align: center;
-   color: rgba(0, 0, 0, 0.493);
+ .last-item h3{
+text-align: center;
+   color: rgba(0, 0, 0, 0.623);
+   
+  
 
 }
 .last-item h2{
